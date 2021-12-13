@@ -1,8 +1,7 @@
 [CV on Github](https://github.com/VictorKachin/rsschool-cv)
 # Victor Kachin
-***
-## Contacts:
 
+## Contacts:
 * ___Location:___ Novopolotsk, Vitebsk reg., Belarus
 * ___Phone:___ +375 29 883-53-53
 * ___Email:___ victor.kachin@gmail.com 
