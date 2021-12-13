@@ -9,7 +9,8 @@
 * [LinkedIn](https://www.linkedin.com/in/victor-kachin/)
 * [GitHub](https://github.com/VictorKachin)
 
-##About Me: 
+## About Me: 
+
 I'm 47 years old. Exactly a year ago, I decided to radically change my life - to devote myself to mastering a new profession - to become a programmer.
 
 Before I started studying at RS School, I studied web development, frontend on my own.
@@ -17,7 +18,9 @@ Before I started studying at RS School, I studied web development, frontend on m
 My main goal is to gain steady knowledge in web development and constantly develop my skills.
 
 I am always open to new knowledge, training and professional contacts.
-##My Skills:
+
+## My Skills:
+
 * HTML and CSS (SASS/SCSS, BEM)
 * SASS
 * JavaScript (basic)
@@ -26,7 +29,7 @@ I am always open to new knowledge, training and professional contacts.
 * Git, GitHub
 * Figma
 
-##Code example:
+## Code example:
 ```jsx
 import React, {useState} from 'react';
 import MyButton from "./UI/buttons/MyButton";
@@ -64,10 +67,10 @@ export default Counter;
 ```
 ![Counter](./img/counter_react.png "React component example")
 
-##Education:
+## Education:
 Polotsk State University, Economics and Finance - Sep 1992 - Aug 1996
 
-##Experience:
+## Experience:
 
 For a long time, from 1996 to 2017, I worked as an:
 * accountant, 
@@ -82,12 +85,12 @@ In 2020, I started learning frontend web development on my own.
 
 From March 2021 have experience in the small team on several projects in commercial Frontend development (HTML/CSS, JavaScript, React.js).
 
-##Language:
+## Language:
 * Russian (native language); 
 * Belarusian (fluent);
 * English (A2);
 
 ***
 
-> ####Live and learn
+> #### Live and learn
 > _"Live as if you were to die tomorrow. Learn as if you were to live forever"_ (Mahatma Gandhi)
