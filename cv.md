@@ -27,7 +27,7 @@ I am always open to new knowledge, training and professional contacts.
 * Figma
 
 ##Code example:
-```angular2html
+```jsx
 import React, {useState} from 'react';
 import MyButton from "./UI/buttons/MyButton";
 
