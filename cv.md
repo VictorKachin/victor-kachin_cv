@@ -89,3 +89,6 @@ From March 2021 have experience in the small team on several projects in commerc
 * English (A2);
 
 ***
+
+> ####Live and learn
+> _"Live as if you were to die tomorrow. Learn as if you were to live forever"_ (Mahatma Gandhi)
