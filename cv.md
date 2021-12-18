@@ -1,4 +1,4 @@
-[CV on Github](https://github.com/VictorKachin/rsschool-cv)
+[CV on Github](https://victorkachin.github.io/rsschool-cv/cv)
 # Victor Kachin
 
 ## Contacts:
