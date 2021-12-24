@@ -1,2 +1,2 @@
 # rsschool-cv
-Viktor Kachin's CV [is here](https://github.com/VictorKachin/rsschool-cv/blob/gh-pages/cv.md).
+My CV [is here](https://victorkachin.github.io/rsschool-cv/cv).
