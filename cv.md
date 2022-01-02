@@ -84,7 +84,7 @@ In 2020, I started learning frontend web development on my own.
 From March 2021 have experience in the small team on several projects in commercial Frontend development (HTML/CSS, JavaScript, React.js).
 
 ## My Projects:
-* Frontend (participant) [new TMT-groupe site](https://dev.tmtgroup.cz/) - React.js;
+* Frontend (participant) [new TMT-group site](https://dev.tmtgroup.cz/) - React.js;
 * Frontend (participant) [new Educat courses app](https://educat.courses/) - React.js;
 * New design for main page (completely independently) [PicsForDesign.com](https://github.com/VictorKachin/pfd-mainpage) - HTML/CSS;
 * New design for blog-page (completely independently) [PicsForDesign.com](https://github.com/VictorKachin/pfd-blog) - HTML/CSS;

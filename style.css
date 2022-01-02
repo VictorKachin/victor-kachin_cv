@@ -26,6 +26,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 20px;
     min-height: 80px;
 }
 
@@ -84,7 +85,7 @@ body {
     justify-content: space-around;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 10px solid #d7d1c9;
+    border-bottom: 10px solid #6667ab;
 }
 
 .section-profile-avatar {
@@ -134,7 +135,12 @@ body {
 .section {
     width: calc(50% - 20px);
     padding: 10px 10px 35px 10px;
-    border-bottom: 1px solid #6667ab;
+    border-bottom: 2px solid #6667ab;
+}
+
+.section:nth-child(8),
+.section:nth-child(9) {
+    border-bottom: none;
 }
 
 .section-title {
@@ -159,12 +165,12 @@ body {
     list-style: none;
 }
 
-.section-item a {
+.link {
     text-decoration: none;
     color: #232221;
 }
 
-.section-item a:hover {
+.link:hover {
     text-decoration: none;
     color: #6667ab;
     transition: color 0.5s;
@@ -174,7 +180,6 @@ body {
     position: relative;
     margin-bottom: 10px;
     padding-left: 40px;
-
 }
 
 .contact-item::before {
@@ -216,7 +221,6 @@ body {
     position: relative;
     margin-bottom: 10px;
     padding-left: 40px;
-
 }
 
 .skill-item::before {
@@ -231,11 +235,116 @@ body {
     background-image: url("./assets/icons/programming.png");
 }
 
-.footer {
-    width: 100%;
-    height: 80px;
-    background-color: lightseagreen;
-    color: orangered;
+.code {
+    font-family: 'Inconsolata', monospace;
 }
 
+.project-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 40px;
 
+}
+
+.project-item::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./assets/icons/developer.png");
+}
+
+.language-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+.span {
+    color: #6667ab;
+}
+
+.language-item::before {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./assets/icons/lang.png");
+}
+
+.footer {
+    padding: 20px;
+    background-color: #6667ab;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footer-link {
+    color: #ffffff;
+}
+
+.rs-logo {
+
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .section:nth-child(8) {
+        border-bottom: 2px solid #6667ab;
+    }
+
+    .section:nth-child(9) {
+        border-bottom: none;
+    }
+    .section-profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-profile-title {
+        align-items: center;
+    }
+
+    .profile-name::before {
+        left: 80%;
+    }
+
+    .code {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 620px) {
+    /*header*/
+}
+
+@media (max-width: 411px) {
+    .code {
+        width: 90%;
+        font-size: 12px;
+    }
+
+}
