@@ -14,7 +14,7 @@ body {
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: #232221;
 }
@@ -79,7 +79,7 @@ body {
     justify-content: space-between;
 }
 
-.section-profile {
+.section.section-profile {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -110,12 +110,13 @@ body {
     position: relative;
     padding: 30px 0 8px;
     margin-bottom: 20px;
-    color: #232221;;
+    color: #232221;
     font-size: 42px;
     font-weight: 600;
     letter-spacing: 10px;
     line-height: 50px;
     word-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .profile-name::before {
@@ -130,6 +131,105 @@ body {
     z-index: -1;
 }
 
+.section {
+    width: calc(50% - 20px);
+    padding: 10px 10px 35px 10px;
+    border-bottom: 1px solid #6667ab;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #232221;
+}
+
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+    border-bottom: 2px solid #f9dd94;
+}
+
+.section-list {
+    list-style: none;
+}
+
+.section-item a {
+    text-decoration: none;
+    color: #232221;
+}
+
+.section-item a:hover {
+    text-decoration: none;
+    color: #6667ab;
+    transition: color 0.5s;
+}
+
+.section-item.contact-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 40px;
+
+}
+
+.contact-item::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-item:nth-child(1)::before {
+    background-image: url("./assets/icons/location.png");
+}
+
+.contact-item:nth-child(2)::before {
+    background-image: url("./assets/icons/smartphone-icon.png");
+}
+
+.contact-item:nth-child(3)::before {
+    background-image: url("./assets/icons/email.png");
+}
+
+.contact-item:nth-child(4)::before {
+    background-image: url("./assets/icons/telegram.png");
+}
+
+.contact-item:nth-child(5)::before {
+    background-image: url("./assets/icons/linkedin.png");
+}
+
+.contact-item:nth-child(6)::before {
+    background-image: url("./assets/icons/github.png");
+}
+
+.skill-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 40px;
+
+}
+
+.skill-item::before {
+    content: "";
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("./assets/icons/programming.png");
+}
 
 .footer {
     width: 100%;
@@ -137,3 +237,5 @@ body {
     background-color: lightseagreen;
     color: orangered;
 }
+
+

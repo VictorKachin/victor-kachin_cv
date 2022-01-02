@@ -10,7 +10,7 @@
 
 ## About Me: 
 
-I'm 47 years old. Exactly a year ago, I decided to radically change my life - to devote myself to mastering a new profession - to become a programmer.
+I'm front. Exactly a year ago, I decided to radically change my life - to devote myself to mastering a new profession - to become a programmer.
 
 Before I started studying at RS School, I studied web development, frontend on my own.
 
@@ -21,7 +21,6 @@ I am always open to new knowledge, training and professional contacts.
 ## My Skills:
 
 * HTML and CSS (SASS/SCSS, BEM)
-* SASS
 * JavaScript (basic)
 * React.js (basic)
 * VS Code, WebStorm
