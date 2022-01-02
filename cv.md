@@ -64,7 +64,7 @@ const Counter = () => {
 
 export default Counter;
 ```
-![Counter](./img/counter_react.png "React component example")
+![Counter](assets/img/counter_react.png "React component example")
 
 ## Education:
 Polotsk State University, Economics and Finance - Sep 1992 - Aug 1996
