@@ -156,10 +156,8 @@
       <h2 class="section-title">Code Example</h2>
       <pre class="code">
           <code>
-function fakeBin(x) {
-    return x.split('')
-            .map(n => n<5 ? 0 : 1)
-            .join('');
+function toBinary(n){
+  return +n.toString(2);
 }
           </code>
         </pre>
