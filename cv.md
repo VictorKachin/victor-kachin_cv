@@ -10,7 +10,7 @@
 
 ## About Me: 
 
-I'm 47 years old. Exactly a year ago, I decided to radically change my life - to devote myself to mastering a new profession - to become a programmer.
+I'm front. Exactly a year ago, I decided to radically change my life - to devote myself to mastering a new profession - to become a programmer.
 
 Before I started studying at RS School, I studied web development, frontend on my own.
 
@@ -21,7 +21,6 @@ I am always open to new knowledge, training and professional contacts.
 ## My Skills:
 
 * HTML and CSS (SASS/SCSS, BEM)
-* SASS
 * JavaScript (basic)
 * React.js (basic)
 * VS Code, WebStorm
@@ -64,7 +63,7 @@ const Counter = () => {
 
 export default Counter;
 ```
-![Counter](./img/counter_react.png "React component example")
+![Counter](assets/img/counter_react.png "React component example")
 
 ## Education:
 Polotsk State University, Economics and Finance - Sep 1992 - Aug 1996
@@ -85,7 +84,7 @@ In 2020, I started learning frontend web development on my own.
 From March 2021 have experience in the small team on several projects in commercial Frontend development (HTML/CSS, JavaScript, React.js).
 
 ## My Projects:
-* Frontend (participant) [new TMT-groupe site](https://dev.tmtgroup.cz/) - React.js;
+* Frontend (participant) [new TMT-group site](https://dev.tmtgroup.cz/) - React.js;
 * Frontend (participant) [new Educat courses app](https://educat.courses/) - React.js;
 * New design for main page (completely independently) [PicsForDesign.com](https://github.com/VictorKachin/pfd-mainpage) - HTML/CSS;
 * New design for blog-page (completely independently) [PicsForDesign.com](https://github.com/VictorKachin/pfd-blog) - HTML/CSS;

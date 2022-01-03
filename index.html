@@ -5,22 +5,223 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Victor Kchin's CV</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <title>cv</title>
+  <!-- favicon -->
+  <link rel="icon" href="./assets/icons/favicon.ico">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto+Condensed:wght@400;700&display=swap"
+      rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modal-mobile-menu.css">
 </head>
 
 <body>
-  <header>
-    <span>CV Header</span>
-  </header>
-  <main>
-    <h1>RS School - Srage 0</h1>
-    <h2>Victor Kachin</h2>
-    <h3>CV#2. HTML, CSS & Git Basics</h3>
-  </main>
-  <footer>
-    <p>CV Footer</p>
-  </footer>
+<!--HEADER-->
+<header class="header">
+  <div class="container header-container">
+<!--    NAV-->
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="#contacts">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#code">Code</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pro">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#educat">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#exp">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#lang">Languages</a>
+        </li>
+      </ul>
+    </nav>
+    <!--    nav-modal START-->
+    <nav class="nav-burger-block">
+      <input id="nav-burger" class="nav-burger" type="checkbox">
+      <div class="nav-burger-lines"></div>
+      <!--MODAL Navigation Menu - START-->
+      <div class="nav-modal">
+        <label for="nav-burger" class="nav-burger-label">
+          <span>
+            <img class="close-cross" src="./assets/img/close-modal-menu.png" alt="close">
+          </span>
+        </label>
+        <ul>
+          <li>
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+        </ul>
+        <div class="shop-menu-item">
+          <a class="nav-link" href="#code">Code</a>
+          <span>new</span></div>
+        <ul>
+          <li>
+            <a class="nav-link" href="#pro">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#educat">Education</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#exp">Experience</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#lang">Languages</a>
+          </li>
+        </ul>
+      </div>
+      <!--MODAL Navigation Menu - END-->
+    </nav>
+    <!--    nav-modal END-->
+  </div>
+</header>
+
+<!--MAIN-->
+<main class="main">
+  <!--    profile heading-->
+  <div class="container main-container">
+    <section id="profile" class="section section-profile">
+      <img class="section-profile-avatar" src="./assets/img/avatar-1.jpg" alt="avatar">
+      <div class="section-profile-title">
+        <h1 class="profile-name">Victor Kachin</h1>
+        <h3>Frontend developer</h3>
+      </div>
+    </section>
+
+    <section id="contacts" class="section">
+      <h2 class="section-title">Contacts</h2>
+      <ul class="section-list">
+        <li class="section-item contact-item">Novopolotsk, Vitebsk reg., Belarus</li>
+        <li class="section-item contact-item">+375 29 883-53-53</li>
+        <li class="section-item contact-item">
+          <a class="link" href="mailto:victor.kachin@gmail.com" target="_blank">victor.kachin@gmail.com</a>
+        </li>
+        <li class="section-item contact-item">
+          <a class="link" href="https://t.me/VictorKachin" target="_blank">@VictorKachin</a>
+        </li>
+        <li class="section-item contact-item">
+          <a class="link" href="https://www.linkedin.com/in/victor-kachin/" target="_blank">LinkedIn</a>
+        </li>
+        <li class="section-item contact-item">
+          <a class="link" href="https://github.com/VictorKachin" target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </section>
+    <section id="about" class="section">
+      <h2 class="section-title">About me</h2>
+      <p>Currently, he is an interface developer. At the beginning of 2021, I decided to radically change my life - to
+        devote myself to mastering a new profession - programming, frontend development.
+        Before I started studying at RS School, I studied web development, frontend on my own.
+        My main goal is to gain steady knowledge in web development and constantly develop my skills.
+        I am always open to new knowledge, training and professional contacts.</p>
+    </section>
+    <section id="skills" class="section">
+      <h2 class="section-title">My Skills</h2>
+      <ul class="section-list">
+        <li class="section-item skill-item">HTML and CSS (SASS/SCSS, BEM)</li>
+        <li class="section-item skill-item">JavaScript</li>
+        <li class="section-item skill-item">React.js</li>
+        <li class="section-item skill-item">VS Code, WebStorm</li>
+        <li class="section-item skill-item">Git, GitHub</li>
+        <li class="section-item skill-item">Figma</li>
+      </ul>
+
+    </section>
+    <section id="code" class="section">
+      <h2 class="section-title">Code Example</h2>
+      <pre class="code">
+          <code>
+function toBinary(n){
+  return +n.toString(2);
+}
+          </code>
+        </pre>
+    </section>
+    <section id="pro" class="section">
+      <h2 class="section-title">Projects</h2>
+      <ul class="section-list">
+        <li class="section-item project-item">
+          <a class="link" href="https://dev.tmtgroup.cz/">new TMT-group site:</a>
+          Frontend (participant) - React.js;
+        </li>
+        <li class="section-item project-item">
+          <a class="link" href="https://educat.courses/">new Educat courses app:</a>
+          Frontend (participant) - React.js;
+        </li>
+        <li class="section-item project-item">
+          <a class="link" href="https://victorkachin.github.io/pfd-mainpage/">Redesign PicsForDesign.com</a>
+          - HTML, CSS, JavaScript;
+        </li>
+        <li class="section-item project-item">
+          <a class="link" href="https://victorkachin.github.io/pfd-blog/">Redesign Blog Page of PicsForDesign.com</a>
+          - HTML, CSS (SASS), JavaScript;
+        </li>
+      </ul>
+    </section>
+    <section id="educat" class="section">
+      <h2 class="section-title">Education</h2>
+      <p>Polotsk State University, Economics and Finance - Sep 1992 - Aug 1996</p>
+    </section>
+
+    <section id="exp" class="section">
+      <h2 class="section-title">Experience</h2>
+      <p><span class="span">For a long time,</span> from 1996 to 2017, I worked as an: accountant, economist,
+        manager, head of a home appliance store, and small business owner (a trading company).</p>
+      <p><span class="span">2017 - 2020</span> - working as a taxi-driver.</p>
+      <p><span class="span">In 2020</span>, I started learning frontend web development on my own.</p>
+      <p><span class="span">From March 2021</span> have experience in the small team on several projects in commercial
+        Frontend development (HTML/CSS, JavaScript, React.js).</p>
+    </section>
+
+    <section id="lang" class="section">
+      <h2 class="section-title">Language</h2>
+      <ul class="section-list">
+        <li class="section-item language-item">Russian (native language);</li>
+        <li class="section-item language-item">Belarusian (fluent);</li>
+        <li class="section-item language-item">English (A2)</li>
+      </ul>
+    </section>
+
+  </div>
+
+</main>
+
+<!--FOOTER-->
+<footer class="footer">
+  <div class="container footer-container">
+    <span class="footer-text">&copy; 2022</span>
+    <a class="link footer-link" href="https://github.com/VictorKachin">VictorKachin</a>
+    <a href="https://rs.school/js/">
+      <img class="rs-logo" src="./assets/img/rsschool.svg" alt="rsschool" width="80" height="30">
+    </a>
+  </div>
+</footer>
 </body>
 
 </html>
