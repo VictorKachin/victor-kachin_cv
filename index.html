@@ -18,8 +18,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-  <!-- styles -->
-  <link rel="stylesheet" href="style.css">
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modal-mobile-menu.css">
 </head>
 
 <body>
@@ -54,8 +55,52 @@
         </li>
       </ul>
     </nav>
+    <!--    nav-modal START-->
+    <nav class="nav-burger-block">
+      <input id="nav-burger" class="nav-burger" type="checkbox">
+      <div class="nav-burger-lines"></div>
+      <!--MODAL Navigation Menu - START-->
+      <div class="nav-modal">
+        <label for="nav-burger" class="nav-burger-label">
+          <span>
+            <img class="close-cross" src="./assets/img/close-modal-menu.png" alt="close">
+          </span>
+        </label>
+        <ul>
+          <li>
+            <a class="nav-link" href="#contacts">Contacts</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+        </ul>
+        <div class="shop-menu-item">
+          <a class="nav-link" href="#code">Code</a>
+          <span>new</span></div>
+        <ul>
+          <li>
+            <a class="nav-link" href="#pro">Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#educat">Education</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#exp">Experience</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#lang">Languages</a>
+          </li>
+        </ul>
+      </div>
+      <!--MODAL Navigation Menu - END-->
+    </nav>
+    <!--    nav-modal END-->
   </div>
 </header>
+
 <!--MAIN-->
 <main class="main">
   <!--    profile heading-->
@@ -127,7 +172,7 @@ function fakeBin(x) {
           Frontend (participant) - React.js;
         </li>
         <li class="section-item project-item">
-          <a class="link"  href="https://educat.courses/">new Educat courses app:</a>
+          <a class="link" href="https://educat.courses/">new Educat courses app:</a>
           Frontend (participant) - React.js;
         </li>
         <li class="section-item project-item">
@@ -135,7 +180,7 @@ function fakeBin(x) {
           - HTML, CSS, JavaScript;
         </li>
         <li class="section-item project-item">
-          <a class="link"  href="https://victorkachin.github.io/pfd-blog/">Redesign Blog Page of PicsForDesign.com</a>
+          <a class="link" href="https://victorkachin.github.io/pfd-blog/">Redesign Blog Page of PicsForDesign.com</a>
           - HTML, CSS (SASS), JavaScript;
         </li>
       </ul>
