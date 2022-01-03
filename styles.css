@@ -1,0 +1,21 @@
+.one {
+  font-size: 32px;
+  color: blue;
+  background: #aaa;
+}
+
+.two {
+  color: red;
+  background-color: rgb(182, 230, 11);
+  /* font-size: 2rem; */
+}
+
+.three {
+  color: green;
+  /* font-size: 200%; */
+}
+
+.four {
+  color: orange;
+  /* font-size: 64px; */
+}
