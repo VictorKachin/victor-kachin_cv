@@ -1,14 +1,16 @@
 [CV on Github](https://victorkachin.github.io/rsschool-cv/cv)
+
+[Repository](https://github.com/VictorKachin/rsschool-cv/tree/rsschool-cv-html)
 # Victor Kachin
-## Contacts:
+## Contacts
 * ___Location:___ Novopolotsk, Vitebsk reg., Belarus
 * ___Phone:___ +375 29 883-53-53
-* ___Email:___ victor.kachin@gmail.com 
+* ___Email:___ victor.kachin@gmail.com
 * Telegram: @VictorKachin
 * [LinkedIn](https://www.linkedin.com/in/victor-kachin/)
 * [GitHub](https://github.com/VictorKachin)
 
-## About Me: 
+## About Me
 
 I'm front. Exactly a year ago, I decided to radically change my life - to devote myself to mastering a new profession - to become a programmer.
 
@@ -18,7 +20,7 @@ My main goal is to gain steady knowledge in web development and constantly devel
 
 I am always open to new knowledge, training and professional contacts.
 
-## My Skills:
+## My Skills
 
 * HTML and CSS (SASS/SCSS, BEM)
 * JavaScript (basic)
@@ -27,7 +29,7 @@ I am always open to new knowledge, training and professional contacts.
 * Git, GitHub
 * Figma
 
-## Code example:
+## Code example
 ```jsx
 import React, {useState} from 'react';
 import MyButton from "./UI/buttons/MyButton";
@@ -65,15 +67,15 @@ export default Counter;
 ```
 ![Counter](assets/img/counter_react.png "React component example")
 
-## Education:
+## Education
 Polotsk State University, Economics and Finance - Sep 1992 - Aug 1996
 
-## Experience:
+## Experience
 
 For a long time, from 1996 to 2017, I worked as an:
-* accountant, 
-* economist, 
-* manager, 
+* accountant,
+* economist,
+* manager,
 * head of a home appliance store,
 * and small business owner (a trading company);
 
@@ -83,15 +85,15 @@ In 2020, I started learning frontend web development on my own.
 
 From March 2021 have experience in the small team on several projects in commercial Frontend development (HTML/CSS, JavaScript, React.js).
 
-## My Projects:
-* Frontend (participant) [new TMT-group site](https://dev.tmtgroup.cz/) - React.js;
+## My Projects
+* Frontend [new TMT-group site](https://dev.tmtgroup.cz/) - React.js;
 * Frontend (participant) [new Educat courses app](https://educat.courses/) - React.js;
 * New design for main page (completely independently) [PicsForDesign.com](https://github.com/VictorKachin/pfd-mainpage) - HTML/CSS;
 * New design for blog-page (completely independently) [PicsForDesign.com](https://github.com/VictorKachin/pfd-blog) - HTML/CSS;
 
 
-## Language:
-* Russian (native language); 
+## Language
+* Russian (native language);
 * Belarusian (fluent);
 * English (A2);
 
