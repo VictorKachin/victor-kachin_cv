@@ -352,7 +352,6 @@ body {
     }
 }
 
-
 @media (max-width: 470px) {
     .profile-name::before {
         left: 60%;
